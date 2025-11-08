@@ -1,0 +1,14 @@
+class DemoSelectionConstructs{
+	public static void main(String[] args){
+		int x;
+		x = 1;
+		if(x=1){
+			System.out.println("X is 1");
+		else if(x=2){
+			System.out.println("X is 2");
+		}
+		else{
+			System.out.println("X is 3");
+		}
+	}
+}
